@@ -1,1 +1,55 @@
-console.log('hello world')
+// https://semantic-release.gitbook.io/semantic-release/extending/plugins-list
+
+const tarballDir = 'pack'
+
+type PluginName = string
+type PluginConfig = Record<string, string | number | boolean>
+type Plugin = PluginName | [PluginName, PluginConfig]
+
+const plugins: Plugin[] = [
+  // https://github.com/semantic-release/commit-analyzer
+  '@semantic-release/commit-analyzer',
+
+  // https://github.com/semantic-release/release-notes-generator
+  '@semantic-release/release-notes-generator',
+
+  // https://github.com/semantic-release/changelog
+  [
+    '@semantic-release/changelog',
+    {
+      changelogTitle: `
+          # Changelog
+
+          All notable changes to this project will be documented in this file.
+          See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+        `.trim(),
+    },
+  ],
+
+  // https://github.com/semantic-release/npm
+  [
+    '@semantic-release/npm',
+    {
+      tarballDir,
+    },
+  ],
+
+  // https://github.com/semantic-release/github
+  [
+    '@semantic-release/github',
+    {
+      assets: `${tarballDir}/*.tgz`,
+    },
+  ],
+
+  // https://github.com/semantic-release/git
+  '@semantic-release/git',
+]
+
+const config = {
+  plugins,
+}
+
+export default config
+
+module.exports = config

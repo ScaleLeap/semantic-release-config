@@ -1,3 +1,5 @@
+import config from '../src/index'
+
 test('should pass', () => {
-  expect(true).toBeTruthy()
+  expect(config).toMatchSnapshot()
 })

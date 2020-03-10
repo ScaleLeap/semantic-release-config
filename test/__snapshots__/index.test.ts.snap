@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should pass 1`] = `
+Object {
+  "plugins": Array [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    Array [
+      "@semantic-release/changelog",
+      Object {
+        "changelogTitle": "# Changelog
+
+          All notable changes to this project will be documented in this file.
+          See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.",
+      },
+    ],
+    Array [
+      "@semantic-release/npm",
+      Object {
+        "tarballDir": "pack",
+      },
+    ],
+    Array [
+      "@semantic-release/github",
+      Object {
+        "assets": "pack/*.tgz",
+      },
+    ],
+    "@semantic-release/git",
+  ],
+}
+`;
