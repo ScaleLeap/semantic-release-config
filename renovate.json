@@ -10,6 +10,12 @@
   ],
   "packageRules": [
     {
+      "packagePatterns": [
+        "^@semantic-release/"
+      ],
+      "semanticCommitType": "fix"
+    },
+    {
       "updateTypes": [
         "minor",
         "patch",
