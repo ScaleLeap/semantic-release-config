@@ -10,12 +10,12 @@
   "homepage": "https://github.com/ScaleLeap/semantic-release-config/#readme",
   "version": "0.0.0",
   "main": "lib/index.js",
-  "files": [
-    "/lib"
-  ],
   "bin": {
     "semantic-release": "node_modules/semantic-release/bin/semantic-release.js"
   },
+  "files": [
+    "/lib"
+  ],
   "scripts": {
     "prebuild": "npm run clean",
     "build": "tsc --build tsconfig.build.json",
@@ -28,6 +28,15 @@
     "test:watch": "jest --watchAll"
   },
   "types": "lib/index.d.ts",
+  "dependencies": {
+    "@semantic-release/changelog": "5.0.0",
+    "@semantic-release/commit-analyzer": "8.0.1",
+    "@semantic-release/git": "9.0.0",
+    "@semantic-release/github": "7.0.4",
+    "@semantic-release/npm": "7.0.4",
+    "@semantic-release/release-notes-generator": "9.0.1",
+    "semantic-release": "17.0.4"
+  },
   "devDependencies": {
     "@types/jest": "25.1.4",
     "@types/node": "13.9.0",
@@ -55,13 +64,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {
-    "@semantic-release/changelog": "5.0.0",
-    "@semantic-release/commit-analyzer": "8.0.1",
-    "@semantic-release/git": "9.0.0",
-    "@semantic-release/github": "7.0.4",
-    "@semantic-release/npm": "7.0.4",
-    "@semantic-release/release-notes-generator": "9.0.1",
-    "semantic-release": "17.0.4"
+  "release": {
+    "extends": "./lib",
+    "branch": "master"
   }
 }
