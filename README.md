@@ -35,10 +35,14 @@ $ npm i -D @scaleleap/semantic-release-config
 
 The shareable config can be configured in the [semantic-release configuration file](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/configuration.md#configuration):
 
+In `package.json`:
+
 ```json
 {
-  "extends": "@scaleleap/semantic-release-config",
-  "branch": "master"
+  "release": {
+    "extends": "@scaleleap/semantic-release-config",
+    "branch": "master"
+  }
 }
 ```
 
