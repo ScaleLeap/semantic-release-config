@@ -3,6 +3,13 @@
           All notable changes to this project will be documented in this file.
           See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.4](https://github.com/ScaleLeap/semantic-release-config/compare/v1.0.3...v1.0.4) (2020-03-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @semantic-release/github to v7.0.5 ([c2afeca](https://github.com/ScaleLeap/semantic-release-config/commit/c2afecaac504f2448b410c9aafb35c8802628f25))
+
 ## [1.0.3](https://github.com/ScaleLeap/semantic-release-config/compare/v1.0.2...v1.0.3) (2020-03-19)
 
 
