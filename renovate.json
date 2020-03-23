@@ -1,12 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base",
-    ":semanticCommits",
-    "schedule:weekdays"
-  ],
-  "labels": [
-    "renovatebot"
+    "@scaleleap"
   ],
   "packageRules": [
     {
@@ -14,21 +9,6 @@
         "^@semantic-release/"
       ],
       "semanticCommitType": "fix"
-    },
-    {
-      "updateTypes": [
-        "minor",
-        "patch",
-        "pin",
-        "digest"
-      ],
-      "automerge": true
-    },
-    {
-      "depTypeList": [
-        "devDependencies"
-      ],
-      "automerge": true
     }
   ]
 }
