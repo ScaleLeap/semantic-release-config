@@ -3,6 +3,13 @@
           All notable changes to this project will be documented in this file.
           See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/ScaleLeap/semantic-release-config/compare/v1.1.0...v1.1.1) (2020-03-23)
+
+
+### Bug Fixes
+
+* passes release notes through markdown ([692f9df](https://github.com/ScaleLeap/semantic-release-config/commit/692f9df29d7757600c4bf5c624e1b846b767706b))
+
 # [1.1.0](https://github.com/ScaleLeap/semantic-release-config/compare/v1.0.4...v1.1.0) (2020-03-23)
 
 
