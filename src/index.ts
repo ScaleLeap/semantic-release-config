@@ -53,6 +53,7 @@ if (!!process.env.SLACK_WEBHOOK) {
     {
       notifyOnSuccess: true,
       notifyOnFail: true,
+      markdownReleaseNotes: true,
     },
   ])
 }

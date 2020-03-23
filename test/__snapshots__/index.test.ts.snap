@@ -30,6 +30,7 @@ Object {
     Array [
       "semantic-release-slack-bot",
       Object {
+        "markdownReleaseNotes": true,
         "notifyOnFail": true,
         "notifyOnSuccess": true,
       },
