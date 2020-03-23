@@ -27,6 +27,13 @@ Object {
       },
     ],
     "@semantic-release/git",
+    Array [
+      "semantic-release-slack-bot",
+      Object {
+        "notifyOnFail": true,
+        "notifyOnSuccess": true,
+      },
+    ],
   ],
 }
 `;
