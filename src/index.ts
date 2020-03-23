@@ -46,6 +46,17 @@ const plugins: Plugin[] = [
   '@semantic-release/git',
 ]
 
+if (!!process.env.SLACK_WEBHOOK) {
+  plugins.push([
+    // https://github.com/juliuscc/semantic-release-slack-bot/
+    'semantic-release-slack-bot',
+    {
+      notifyOnSuccess: true,
+      notifyOnFail: true,
+    },
+  ])
+}
+
 const config = {
   plugins,
 }
