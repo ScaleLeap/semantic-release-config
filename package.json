@@ -8,7 +8,7 @@
     "url": "https://www.scaleleap.com/"
   },
   "homepage": "https://github.com/ScaleLeap/semantic-release-config/#readme",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "main": "lib/index.js",
   "bin": {
     "semantic-release": "node_modules/semantic-release/bin/semantic-release.js"
