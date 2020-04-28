@@ -25,10 +25,10 @@ This shareable configuration uses the following plugins:
 - Commits the version change in `package.json`.
 - Creates or updates a [changelog](https://github.com/semantic-release/changelog) file.
 
-## Download & Installation
+## Running in CI
 
 ```sh
-$ npm i -D @scaleleap/semantic-release-config
+$> npx @scaleleap/semantic-release-config
 ```
 
 ## Usage
