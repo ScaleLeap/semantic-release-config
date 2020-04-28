@@ -40,8 +40,7 @@ In `package.json`:
 ```json
 {
   "release": {
-    "extends": "@scaleleap/semantic-release-config",
-    "branch": "master"
+    "extends": "@scaleleap/semantic-release-config"
   }
 }
 ```
