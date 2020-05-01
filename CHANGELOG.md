@@ -3,6 +3,14 @@
           All notable changes to this project will be documented in this file.
           See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.8](https://github.com/ScaleLeap/semantic-release-config/compare/v1.1.7...v1.1.8) (2020-05-01)
+
+
+### Bug Fixes
+
+* package-lock ([2b81ea9](https://github.com/ScaleLeap/semantic-release-config/commit/2b81ea9e2a52935dd5bdc6f85b64ac9bd1d18109))
+* package.json, package-lock.json & .snyk to reduce vulnerabilities ([07121dd](https://github.com/ScaleLeap/semantic-release-config/commit/07121dd3f82fae145f282f31dabc80b09a6f2743))
+
 ## [1.1.7](https://github.com/ScaleLeap/semantic-release-config/compare/v1.1.6...v1.1.7) (2020-04-28)
 
 
