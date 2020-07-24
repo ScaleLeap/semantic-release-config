@@ -43,7 +43,7 @@
     "@types/node": "13.13.4",
     "@typescript-eslint/eslint-plugin": "3.5.0",
     "@typescript-eslint/parser": "3.5.0",
-    "danger": "10.2.1",
+    "danger": "10.3.0",
     "eslint": "7.5.0",
     "eslint-config-prettier": "6.11.0",
     "eslint-import-resolver-typescript": "2.0.0",
