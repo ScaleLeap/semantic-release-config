@@ -52,7 +52,7 @@
     "husky": "4.2.5",
     "jest": "26.2.2",
     "post-npm-install": "2.0.0",
-    "prettier": "2.1.0",
+    "prettier": "2.1.1",
     "rimraf": "3.0.2",
     "ts-jest": "26.1.4",
     "ts-node": "9.0.0",
