@@ -39,7 +39,7 @@
     "snyk": "^1.316.1"
   },
   "devDependencies": {
-    "@types/jest": "26.0.12",
+    "@types/jest": "26.0.14",
     "@types/node": "13.13.4",
     "@typescript-eslint/eslint-plugin": "4.0.1",
     "@typescript-eslint/parser": "4.0.1",
