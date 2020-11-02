@@ -1,6 +1,6 @@
 // https://semantic-release.gitbook.io/semantic-release/extending/plugins-list
 
-const tarballDir = 'pack'
+const TARBALL_DIRECTORY = 'pack'
 
 type PluginName = string
 type PluginConfig = Record<string, string | number | boolean>
@@ -30,7 +30,7 @@ const plugins: Plugin[] = [
   [
     '@semantic-release/npm',
     {
-      tarballDir,
+      tarballDir: TARBALL_DIRECTORY,
     },
   ],
 
@@ -38,7 +38,7 @@ const plugins: Plugin[] = [
   [
     '@semantic-release/github',
     {
-      assets: `${tarballDir}/*.tgz`,
+      assets: `${TARBALL_DIRECTORY}/*.tgz`,
     },
   ],
 
@@ -46,7 +46,7 @@ const plugins: Plugin[] = [
   '@semantic-release/git',
 ]
 
-if (!!process.env.SLACK_WEBHOOK) {
+if (process.env.SLACK_WEBHOOK) {
   plugins.push([
     // https://github.com/juliuscc/semantic-release-slack-bot/
     'semantic-release-slack-bot',
