@@ -3,6 +3,13 @@
           All notable changes to this project will be documented in this file.
           See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.20](https://github.com/ScaleLeap/semantic-release-config/compare/v1.1.19...v1.1.20) (2020-11-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency semantic-release-slack-bot to v1.7.0 ([7ae3377](https://github.com/ScaleLeap/semantic-release-config/commit/7ae3377b364b406fc0e4688d7026c2f3f9bb21bf))
+
 ## [1.1.19](https://github.com/ScaleLeap/semantic-release-config/compare/v1.1.18...v1.1.19) (2020-11-23)
 
 
