@@ -3,6 +3,13 @@
           All notable changes to this project will be documented in this file.
           See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.28](https://github.com/ScaleLeap/semantic-release-config/compare/v1.1.27...v1.1.28) (2021-02-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency semantic-release to v17.3.8 ([a8a7237](https://github.com/ScaleLeap/semantic-release-config/commit/a8a7237131724633ea0435a8025634df817f1530))
+
 ## [1.1.27](https://github.com/ScaleLeap/semantic-release-config/compare/v1.1.26...v1.1.27) (2021-01-22)
 
 
