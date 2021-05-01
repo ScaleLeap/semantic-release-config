@@ -36,7 +36,7 @@
     "semantic-release-slack-bot": "2.1.0"
   },
   "devDependencies": {
-    "@scaleleap/utils": "1.9.19",
+    "@scaleleap/utils": "1.9.27",
     "@types/jest": "26.0.23",
     "@types/node": "13.13.48",
     "danger": "10.6.4",
