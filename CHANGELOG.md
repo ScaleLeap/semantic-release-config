@@ -1,5 +1,18 @@
 # Changelog
 
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [1.1.35](https://github.com/ScaleLeap/semantic-release-config/compare/v1.1.34...v1.1.35) (2021-05-29)
+
+
+### Bug Fixes
+
+* changelog header ([ad8007f](https://github.com/ScaleLeap/semantic-release-config/commit/ad8007f1a27ca353b3b1f9b20323f5c9b80c90ea))
+* npm audit ([2522be7](https://github.com/ScaleLeap/semantic-release-config/commit/2522be7d94c8abb67082a5bd4414cb460af94add))
+
+# Changelog
+
           All notable changes to this project will be documented in this file.
           See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
