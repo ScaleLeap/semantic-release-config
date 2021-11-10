@@ -30,9 +30,9 @@
   },
   "types": "lib/index.d.ts",
   "dependencies": {
-    "@semantic-release/changelog": "5.0.1",
-    "@semantic-release/git": "9.0.0",
-    "semantic-release": "17.4.3",
+    "@semantic-release/changelog": "6.0.1",
+    "@semantic-release/git": "10.0.1",
+    "semantic-release": "18.0.0",
     "semantic-release-slack-bot": "2.1.0"
   },
   "devDependencies": {
