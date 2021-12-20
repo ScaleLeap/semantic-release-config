@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.36](https://github.com/ScaleLeap/semantic-release-config/compare/v1.1.35...v1.1.36) (2021-12-20)
+
+
+### Bug Fixes
+
+* **deps:** update semantic-release monorepo (major) ([#282](https://github.com/ScaleLeap/semantic-release-config/issues/282)) ([97c6d0d](https://github.com/ScaleLeap/semantic-release-config/commit/97c6d0d578f4c0883b645761d6b7ccd3f28f659f))
+
 ## [1.1.35](https://github.com/ScaleLeap/semantic-release-config/compare/v1.1.34...v1.1.35) (2021-05-29)
 
 
