@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@scaleleap/utils": "1.9.36",
-    "@types/jest": "27.0.3",
+    "@types/jest": "27.4.0",
     "@types/node": "13.13.48",
     "danger": "10.7.1",
     "jest": "27.4.5",
