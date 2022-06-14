@@ -33,7 +33,7 @@
     "@semantic-release/changelog": "6.0.1",
     "@semantic-release/git": "10.0.1",
     "semantic-release": "19.0.3",
-    "semantic-release-slack-bot": "2.1.1"
+    "semantic-release-slack-bot": "3.5.3"
   },
   "devDependencies": {
     "@scaleleap/utils": "1.9.36",
